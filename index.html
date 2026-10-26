@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Interactive wireframe prototype for Pa Tong Inter Medical Clinic. Demonstration only.">
+  <title>Pa Tong Inter Medical Clinic | Wireframe Prototype</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<noscript>This interactive wireframe requires JavaScript. No data is sent to a server.</noscript>
+<div id="pt-clinic">
+
+<div class="pt-tabs" aria-label="Wireframe screens">
+<button type="button" data-screen="home" aria-pressed="true">Home</button><button type="button" data-screen="services" aria-pressed="false">Services</button><button type="button" data-screen="detail" aria-pressed="false">Service detail</button><button type="button" data-screen="booking" aria-pressed="false">Appointment</button><button type="button" data-screen="staff" aria-pressed="false">Staff workspace</button>
+</div>
+<div class="pt-window">
+<div class="pt-url" id="pt-url">clinic-domain.example / en</div>
+<header class="pt-nav"><div class="pt-brand">+ PA TONG<small>INTER MEDICAL CLINIC</small></div><nav class="pt-links" aria-label="Clinic navigation"><button type="button" data-screen="home" id="pt-home-link">Home</button><button type="button" data-screen="services" id="pt-services-link">Services</button></nav><select id="pt-lang" aria-label="Website language"><option value="en">English</option><option value="th">ไทย</option><option value="my">မြန်မာ</option></select><button type="button" class="pt-primary" data-screen="booking" id="pt-book-link">Request appointment</button></header>
+<main class="pt-main" id="pt-main"></main>
+<footer class="pt-footer">Concept only · Example services and times · Clinic details to be confirmed · TH / EN / MY translation review required</footer>
+</div>
+
+</div>
+
+</body>
+</html>
